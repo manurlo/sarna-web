@@ -2,6 +2,7 @@
 *{font-family: 'Nunito Sans', sans-serif;
 padding: 0;
 margin: 0;
+ background-color:#808080;
 }
 
 
@@ -16,42 +17,32 @@ background-color: #808080;
 
 header ul {list-style: none;color: black};
 
-.cont-img{width: 300px;
+.cont-img{width: 50px;
     background-color:#808080;}
 .cont-img img {width: 10%;}
 
 .menu-container {
-    display: flex;
-    flex-flow: wrap;
+   
 
     position: sticky;
     top: 0;
     
+    background-color:#808080;
+    
 }
 
 
-.menu {
-    height: 14vh;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    flex-direction: row-reverse;
-    
-    
-}
+
 
 
 
 
 /*main*/
-.index-video{
 
-    margin: 15px;
-}
 .tittle {
-    margin:50px;
+   
     border: 1px solid;
-    border-radius: 10px;
+  
     text-align: center;
    }
 
@@ -66,26 +57,44 @@ header ul {list-style: none;color: black};
    .imagenes-main {
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-flow: wrap;
 
    }
    .imgmain1{
     display: flex;
     
-    width: 400px;
-    height: 450px;
+    width: 200px;
+    height:225px;
 
    }
 
    .imgmain2{
     display: flex;
-    width: 400px;
-    height: 450px;
+    width:200px;
+    height: 225px;
+
+
+   }
+   .grilla-lasarna{
+    
+    display: flex;
+    width:25%;
+    height: 30%p;
+   
+   
 
 
    }
 
+   .main-pelicula {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    list-style: none;
+    flex-flow: wrap;
+
+   }
    
    
 
