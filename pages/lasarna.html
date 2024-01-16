@@ -3,103 +3,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!--bs-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+     <!--css-->
+     <link rel="stylesheet" href="../style.css">
+     
+  <!--fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,700;1,6..12,500&display=swap" rel="stylesheet">
+ 
     <title>Document</title>
-    <link rel="stylesheet" href="../style.css">
+  
 </head>
 <body>
     <header>
-        <a href="../index.html"> Inicio </a>
-        <div class="cont-img">
-            <img src="../assets/images/logo sarna.png" alt="Logo sarna">
-        </div>
+        <!--menu-->
+        <nav class="col-lg-12">
+            <nav class=" menu-container  navbar navbar-expand-lg border border-black w-100 ">
+                <div class="container-fluid">
+                          
+                   <div class=" cont-img">
+                       <!--logo-->
+                       <img src="../assets/images/logo sarna.png" alt="Logo Sarna">
+                   </div> 
+                   
+                   
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                   </button>
+                         <div class="collapse navbar-collapse" id="navbarNav">
+                     
+                           <ul class="navbar-nav">
+                             <li class="nav-item">
+                               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="../pages/peliculas.html">Peliculas</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link" href="../pages/lasarna.html">LaSarna</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link " href="../pages/comunidad.html" >Comunidad</a>
+                             </li>
+                             <li class="nav-item">
+                               <a class="nav-link " href="../pages/contacto.html" >Contacto</a>
+                             </li>
+                           </ul>
+                      
+                         </div>
+                       </div>
+             </nav>
         <div>
-            <p> texto quienes somos texto quienes somos texto quienes somos <br>
-                texto quienes somos texto quienes somos texto quienes somos <br>
-                texto quienes somos texto quienes somos texto quienes somos <br>
-                texto quienes somos texto quienes somos texto quienes somos 
+            <p> Somos la SARNA, productora independiente que desde el año 2003 viene militando -desde el hacer, mostrar, militar y contar- una forma de trabajo que dimos en llamar CINEPUNK, bajo el lema “películas que existen porque sí, y debiendo sólo a lxs amigxs” con los preceptos fundamentales de Responsabilidad, Esfuerzo y Compromiso.
+
+                A fuerza de trabajo construimos un fuerte equipo conformado por profesionales de la industria audiovisual que, más allá de desempeñarse en el ámbito privado, confluyen en el plan de hacer cine sólo con la fuerza de la amistad y el valor de la autogestión para llevar a cabo empresas de grandes magnitudes, donde la pasión es motor.
+                
+                Sabemos que un equipo es tan fuerte como el menos comprometido de sus integrantes y por eso la energía que mantiene erguido al arte under en cualquiera de sus formas pasa en gran parte por el factor humano. Es así que salimos a compartir nuestra experiencia, una iniciativa tendiente a generar la chispa de la creación independiente en quién se preste a escuchar. Predicamos la palabra y los hechos del “hacelo vos mismo” para que la rueda siga siempre girando y haciéndose más fuerte, las redes tendiéndose más alto y más lejos, y las aventuras se tornen más emocionantes e inmensas
             </p>
 
         </div>
 
     </header>
     <main>
-        <img src="" alt="imagen1">
-        <img src="" alt="imagen2">
-        <img src="" alt="imagen3">
-        <img src="" alt="imagen4">
-        <img src="" alt="imagen5">
-        <img src="" alt="imagen6">
-        <img src="" alt="imagen7">
-        <img src="" alt="imagen8">
-        <img src="" alt="imagen9">
+        <div class=" w-100 grilla-lasarna">
+            <div class="row">
+                
+                <img src="../assets/images/pasando data img.png" alt="imagen1">
+                <img src="../assets/images/pasando data img.png" alt="imagen2">
+                <img src="../assets/images/pasando data img.png" alt="imagen3">
+
+            </div>
+            <div class="row">
+                <img  src="../assets/images/pasando data img.png" alt="imagen4">
+                <img  src="../assets/images/pasando data img.png" alt="imagen5">
+                <img  src="../assets/images/pasando data img.png" alt="imagen6">
+            </div>
+            <div class="row">
+                <img  src="../assets/images/pasando data img.png" alt="imagen7">
+                <img  src="../assets/images/pasando data img.png" alt="imagen8">
+                <img  src="../assets/images/pasando data img.png" alt="imagen9">
+
+            </div>
+            
+            
+            
+        </div>
         
 
     </main>
-    <aside> 
-        <div class="banner">
-            <img src="/assets/images/banner sarna.jpg" alt="banner">
+    <aside class="row"> 
+        <div class=" banner">
+            <img src="../assets/images/banner sarna.jpg" alt="banner">
 
         </div>
         
     </aside>
 
-    <footer>
-        <div class="cont-img">
-            <!--logo-->
-            <img src="./assets/images/logo sarna.png" alt="Logo Sarna">
+    <footer class="row">
+
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="cont-img">
+                <!--logo-->
+                <img src="../assets/images/logo sarna.png" alt="Logo Sarna">
             </div>
-        
-        <div class="info">
-            <p><strong>la sarna
-                <br>
-               direccion catamarca 3456
-               <br>
-               tel 111111
-                <br>
-               mail: sarna@sarna.com
-            </strong>
-            </p>
-            </div>
-            <div>
-                <p>redes
-                    
-                        <li> <a href="https://www.facebook.com/cine.sarna/about">Facebook</a></li>
-                        <li><a href="https://www.youtube.com/@sarnnaoficial4336">Youtube</a></li>
-                         <li><a href="https://www.instagram.com/sarnacinepunk"> Instagram</a></li>
-                        
-                    
+            
+            <div class=" info">
+                <p><strong>la sarna
+                    <br>
+                   direccion catamarca 3456
+                   <br>
+                   tel 111111
+                    <br>
+                   mail: sarna@sarna.com
+                </strong>
                 </p>
-                    
-                    <form action="form.php" method="post">
-                         <label for="">nombre y apeliido</label>
-                        <input type="text" name = "nombre" id="nombre" placeholder="escribi tu nombre">
-                       
-                        <label for="">contrasena</label>
-                        <input type="password" name="" id="">
-                        
-                        <select name="" id="">
-                            <option value="">argentina</option>
-                            <option value="">brasil</option>
-                        </select>
-                        
-                        <textarea name="" id="" cols="30" rows="10"> 
-                
-                
-                        </textarea>
-                
-                
-                        <p>acepta </p>
-                        <input type="checkbox" name="" id="">
-                    
-                        <input type="submit" value="enviar">
-                    </form>
-                    
-
-                
-
             </div>
+            <div >
+                    <p>redes
+                        
+                            <li> <a href="https://www.facebook.com/cine.sarna/about">Facebook</a></li>
+                            <li><a href="https://www.youtube.com/@sarnnaoficial4336">Youtube</a></li>
+                             <li><a href="https://www.instagram.com/sarnacinepunk"> Instagram</a></li>
+                            
+                        
+                    </p>
+                        
+                       
+            </div>
+        </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class=" w-100 mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email </label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Contanos el motivo de tu contacto</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                </div>
+                
+
+
+        
+        
 
     </footer>
-    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script> 
 </body>
 </html>
