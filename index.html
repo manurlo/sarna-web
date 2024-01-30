@@ -7,25 +7,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
     <!--css-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     
  <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,300;0,6..12,700;1,6..12,500&display=swap" rel="stylesheet">
+<!--animate-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+     />
+<!--aos animate-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Document</title>
 </head>
 <body>
 
-    <div class="container">
+    <div class="container-fluid w-100 m-0 p-0">
         <header class="row ">
             <!--menu-->
             <nav class="col-lg-12">
-                <nav class=" menu-container  navbar navbar-expand-lg border border-black w-100 ">
-                    <div class="container-fluid">
+                <nav class=" container-fluid menu-container  navbar navbar-expand-lg border border-black  justify-content-end">
+                    <div class="container-fluid" >
                               
-                       <div class=" cont-img">
+                       <div class="animate__animated animate__rubberBand cont-img">
                            <!--logo-->
                            <img src="assets/images/logo sarna.png" alt="Logo Sarna">
                        </div> 
@@ -60,24 +67,26 @@
                        
                        
                        
-                       <div class="index-video w-100 ">
+                       <div class="index-video d-flex justify-content-center mt-1 mb-1 ">
                
                            <!--video 20 years, el video incertado no es el definitivo-->
-                           <iframe width="100%" height="450px" src="https://www.youtube.com/embed/T6R3UteI6h4?si=NDe7VBSOXGo0LHZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                           <iframe width="90%" height="450px" src="https://www.youtube.com/embed/T6R3UteI6h4?si=NDe7VBSOXGo0LHZV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                        </div>
 
             </nav>
             
       
-    </header>
+    </header class="header">
             
         <main >
             
                 <div class="row">
                     <div class="col-lg-12 ">
-                        <div class="tittle">
+                        <div class="tittle mt-1 mb-1">
                         
-                            <h1>20 aniversario</h1>
+                            <h1 data-aos="fade-right"
+                            data-aos-offset="300"
+                            data-aos-easing="ease-in-sine"  >20 aniversario</h1>
                     
                         </div> 
 
@@ -88,14 +97,14 @@
                      
                 <div class="row">
                     <section class=" main-content">
-                        <div class="col-lg-2 col-md-12 col-sm-12">
+                        <div class=" pt-3 col-lg-2 col-md-12 col-sm-12">
                             
-                            <div class=" enlaces-main">
+                            <div data-aos="fade-up" class=" enlaces-main ">
             
             
-                                <li><a href="./pages/comunidad.html">Comunidad</a></li>
-                                <li><a href="https://www.instagram.com/pasando.data/">Pasando Data</a></li>
-                                <li><a href="./pages/comunidad.html">Colabora con nuestros proyectos</a></li>
+                                <li class="w-auto p-3"><a href="./pages/comunidad.html">Comunidad</a></li>
+                                <li class="w-auto p-3" ><a href="https://www.instagram.com/pasando.data/">Pasando Data</a></li>
+                                <li class="w-auto p-3"><a href="./pages/comunidad.html">Colabora con nosotros</a></li>
                                    
                                
                     
@@ -103,7 +112,7 @@
 
                         </div>
                         
-                       <div class=" imagenes-main">
+                       <div data-aos="fade-up" class=" imagenes-main">
                         <div class="col-lg-5 col-md-6 col-sm-12">
                             <div class=" imgmain1">
                                 <img src="assets/images/imagen hitos.jpg" alt="hitos 20 aniversario">
@@ -134,7 +143,7 @@
         </main >
             
         <aside class="row"> 
-                    <div class=" banner">
+                    <div class=" banner mt-1 mb-1">
                         <img src="assets/images/banner sarna.jpg" alt="banner">
             
                     </div>
@@ -192,8 +201,13 @@
         </footer>
 
     </div>
-   
+   <!--BS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<!--AOS-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </body>
 </html>
