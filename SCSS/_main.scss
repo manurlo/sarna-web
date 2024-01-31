@@ -22,40 +22,43 @@
     flex-flow: wrap;
     justify-content: space-around;
     background-color: #a99f9f;
+    .imagenes-main {
+
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;
+        .imgmain1{
+            display: flex;
+            
+            width: 200px;
+            height:225px;
+        
+           }
+        
+           .imgmain2{
+            display: flex;
+            width:200px;
+            height: 225px;
+        
+        
+           }
     
+       }
    }
-   .imagenes-main {
-
-    display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
-
-   }
-   .imgmain1{
-    display: flex;
-    
-    width: 200px;
-    height:225px;
-
-   }
-
-   .imgmain2{
-    display: flex;
-    width:200px;
-    height: 225px;
-
-
-   }
+   
+   
    .grilla-lasarna{
     
     display: flex;
-    width:25%;
-    height: 30%p;
+    width:35%;
+    height: 50%p;
    
    
 
 
    }
+
+   
 
    .main-pelicula {
     display: flex;
@@ -63,6 +66,11 @@
     text-align: center;
     list-style: none;
     flex-flow: wrap;
+
+    .peliculas-list {
+
+        list-style: none;
+       }
 
    }
    

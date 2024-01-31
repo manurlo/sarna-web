@@ -49,20 +49,17 @@ header ul {
   justify-content: space-around;
   background-color: #a99f9f;
 }
-
-.imagenes-main {
+.main-content .imagenes-main {
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
 }
-
-.imgmain1 {
+.main-content .imagenes-main .imgmain1 {
   display: flex;
   width: 200px;
   height: 225px;
 }
-
-.imgmain2 {
+.main-content .imagenes-main .imgmain2 {
   display: flex;
   width: 200px;
   height: 225px;
@@ -70,8 +67,8 @@ header ul {
 
 .grilla-lasarna {
   display: flex;
-  width: 25%;
-  height: 30% p;
+  width: 35%;
+  height: 50% p;
 }
 
 .main-pelicula {
@@ -80,6 +77,9 @@ header ul {
   text-align: center;
   list-style: none;
   flex-flow: wrap;
+}
+.main-pelicula .peliculas-list {
+  list-style: none;
 }
 
 /*aside*/
