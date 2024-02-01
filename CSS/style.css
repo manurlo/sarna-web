@@ -65,6 +65,12 @@ header ul {
   height: 225px;
 }
 
+.img-main-com {
+  display: flex;
+  width: 300px;
+  height: 450px;
+}
+
 .grilla-lasarna {
   display: flex;
   width: 35%;
